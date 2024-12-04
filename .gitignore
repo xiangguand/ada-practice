@@ -1,0 +1,11 @@
+
+*.o
+*.ali
+*.so
+*.a
+*.stderr
+*.stdout
+*.lexch
+
+obj
+
