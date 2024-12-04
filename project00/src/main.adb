@@ -1,8 +1,8 @@
 with Ada.Text_IO; use Ada.Text_IO;
-with Ops;
+with Practice;
 procedure Main is
    
 begin
    Put_Line("Hello world !!!");
-   Ops.MyProcedure;
+   Practice.MyProcedure;
 end Main;
