@@ -1,0 +1,14 @@
+library project practice_lib is
+
+    for Library_Name use "practice_lib";
+
+    for Source_Dirs use ("src");
+    for Library_Dir use "lib";
+    for Object_Dir  use "obj";
+
+    package Compiler is
+        for Switches ("Ada") use ("-gnata", "-gnato", "-fstack-check");
+    end Compiler;
+
+end practice_lib;
+
